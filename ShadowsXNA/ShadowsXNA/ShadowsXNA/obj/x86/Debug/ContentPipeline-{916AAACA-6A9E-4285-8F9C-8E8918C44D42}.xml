@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Content\erokia-16.wav</Source>
+      <Name>Content\erokia-16</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.xnb</Output>
+      <Time>2013-10-04T20:32:43.8127754+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\gun_metal.png</Source>
+      <Name>Content\gun_metal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal.xnb</Output>
+      <Time>2013-10-04T20:39:32.0563641+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\gun_metal_2x.png</Source>
+      <Name>Content\gun_metal_2x</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal_2x.xnb</Output>
+      <Time>2013-10-04T21:10:28.297342+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{916AAACA-6A9E-4285-8F9C-8E8918C44D42}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNAContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-10-04T01:00:59.669219+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

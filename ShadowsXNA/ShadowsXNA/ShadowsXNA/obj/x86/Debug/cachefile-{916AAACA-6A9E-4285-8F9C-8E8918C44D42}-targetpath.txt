@@ -1,0 +1,3 @@
+Content\Content\erokia-16.xnb
+Content\Content\gun_metal.xnb
+Content\Content\gun_metal_2x.xnb

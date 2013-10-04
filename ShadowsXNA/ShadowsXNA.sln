@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ShadowsXNA", "ShadowsXNA\ShadowsXNA\ShadowsXNA.vbproj", "{5B3E5B05-C022-4F94-A102-779EFF287E8D}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ShadowsXNAContent", "ShadowsXNA\ShadowsXNAContent\ShadowsXNAContent.contentproj", "{916AAACA-6A9E-4285-8F9C-8E8918C44D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B3E5B05-C022-4F94-A102-779EFF287E8D}.Debug|x86.ActiveCfg = Debug|x86
+		{5B3E5B05-C022-4F94-A102-779EFF287E8D}.Debug|x86.Build.0 = Debug|x86
+		{5B3E5B05-C022-4F94-A102-779EFF287E8D}.Release|x86.ActiveCfg = Release|x86
+		{5B3E5B05-C022-4F94-A102-779EFF287E8D}.Release|x86.Build.0 = Release|x86
+		{916AAACA-6A9E-4285-8F9C-8E8918C44D42}.Debug|x86.ActiveCfg = Debug|x86
+		{916AAACA-6A9E-4285-8F9C-8E8918C44D42}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
