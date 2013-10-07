@@ -1,0 +1,9 @@
+Starting Audio:
+http://www.freesound.org/people/Erokia/sounds/185239/
+
+Crate Images:
+http://opengameart.org/content/2d-wooden-box
+http://opengameart.org/content/cartoon-wooden-crate
+
+Sprite Sheets:
+http://opengameart.org/content/141-military-icons-set
