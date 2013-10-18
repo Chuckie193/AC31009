@@ -5,7 +5,7 @@
     <WindowsUser>Johnathan Law</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>9ADEA094693D9D7452ECCF370817610839DB87A5EAB53CC6E784EAAB53C3123B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>9C8D0E6E8676AE9D41979E87BDC9082F0EE8820BEF862F6A8424955DD5539112</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d5a87b39-a364-4b77-9db4-1f39f166099a_1.0.0.0_neutral__zr5sgb3jkkxrr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d5a87b39-a364-4b77-9db4-1f39f166099a_zr5sgb3jkkxrr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d5a87b39-a364-4b77-9db4-1f39f166099a</RegisteredPackageID>
@@ -13,20 +13,20 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-10-04T20:11:35.013</Modified>
+      <Modified>2013-10-14T10:24:43.478</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\Shadows.exe">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.exe">
       <PackagePath>Shadows.exe</PackagePath>
-      <Modified>2013-10-04T20:11:34.923</Modified>
+      <Modified>2013-10-17T19:02:13.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\Shadows.pdb">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.pdb">
       <PackagePath>Shadows.pdb</PackagePath>
-      <Modified>2013-10-04T20:11:34.907</Modified>
+      <Modified>2013-10-17T19:02:13.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -88,41 +88,74 @@
       <PackagePath>SharpDX.XAudio2.xml</PackagePath>
       <Modified>2012-12-28T16:17:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Content\erokia-16.xnb">
-      <PackagePath>Content\erokia-16.xnb</PackagePath>
-      <Modified>2013-10-04T19:32:46.931</Modified>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\150x150.png">
+      <PackagePath>Assets\150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-08T08:51:10.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Content\gun_metal.xnb">
-      <PackagePath>Content\gun_metal.xnb</PackagePath>
-      <Modified>2013-10-04T19:40:28.098</Modified>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\30x30.png">
+      <PackagePath>Assets\30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-08T08:51:10.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Content\gun_metal_2x.xnb">
-      <PackagePath>Content\gun_metal_2x.xnb</PackagePath>
-      <Modified>2013-10-04T20:10:58.718</Modified>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-08T08:51:10.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\620x300.png">
+      <PackagePath>Assets\620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-08T09:02:50.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\shadowsTXT.png">
+      <PackagePath>Assets\shadowsTXT.png</PackagePath>
+      <Modified>2013-10-08T08:51:10.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-06T13:37:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-06T13:37:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-06T13:37:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-06T13:37:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\erokia-16.xnb">
+      <PackagePath>Content\erokia-16.xnb</PackagePath>
+      <Modified>2013-10-04T19:32:46.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal.xnb">
+      <PackagePath>Content\gun_metal.xnb</PackagePath>
+      <Modified>2013-10-04T19:40:28.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal_2x.xnb">
+      <PackagePath>Content\gun_metal_2x.xnb</PackagePath>
+      <Modified>2013-10-04T20:10:58.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\shadowsTXT.xnb">
+      <PackagePath>Content\shadowsTXT.xnb</PackagePath>
+      <Modified>2013-10-08T21:01:19.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\SmileyWalk.xnb">
+      <PackagePath>Content\SmileyWalk.xnb</PackagePath>
+      <Modified>2013-10-08T21:05:39.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\Fonts\SegoeUI.xnb">
+      <PackagePath>Content\Fonts\SegoeUI.xnb</PackagePath>
+      <Modified>2013-10-14T10:24:25.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-10-04T20:11:34.971</Modified>
+      <Modified>2013-10-14T10:24:43.433</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

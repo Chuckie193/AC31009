@@ -51,8 +51,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Content\SkyFall Done.ttf">
-      <Name>SkyFall Done</Name>
+    <Compile Include="Content\SegoeUI.spritefont">
+      <Name>SegoeUI</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <SubType>Designer</SubType>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />

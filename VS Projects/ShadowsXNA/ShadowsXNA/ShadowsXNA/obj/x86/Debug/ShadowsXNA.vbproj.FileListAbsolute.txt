@@ -8,3 +8,14 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\ShadowsXNA.pdb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal_2x.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\ShadowsXNA.exe
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\ShadowsXNA.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\ShadowsXNA.pdb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal_2x.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\SegoeUI.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\ShadowsXNA.exe
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\ShadowsXNA.pdb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\ShadowsXNA.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt

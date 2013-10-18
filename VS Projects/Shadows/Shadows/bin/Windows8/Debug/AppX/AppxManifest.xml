@@ -22,9 +22,12 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="Shadows.exe" EntryPoint="Shadows.App">
-      <VisualElements DisplayName="Shadows" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Shadows" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="Assets\SplashScreen.png" />
+      <VisualElements DisplayName="Shadows" Logo="Assets\150x150.png" SmallLogo="Assets\30x30.png" Description="Shadows" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="logoOnly" WideLogo="Assets\310x150.png" />
+        <SplashScreen Image="Assets\620x300.png" BackgroundColor="#000000" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
       </VisualElements>
     </Application>
   </Applications>

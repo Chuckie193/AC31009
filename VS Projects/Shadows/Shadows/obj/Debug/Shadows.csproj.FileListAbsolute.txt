@@ -38,3 +38,46 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\obj\Debug\Projec
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\Content\erokia-16.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal_2x.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\erokia-16.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal_2x.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.exe
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.pdb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\resources.pri
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\AppxManifest.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.build.appxrecipe
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\MonoGame.Framework.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.Direct2D1.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.Direct3D11.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.DXGI.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.XAudio2.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.XInput.dll
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.XInput.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.Direct2D1.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.Direct3D11.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.DXGI.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\SharpDX.XAudio2.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\Shadows.csprojResolveAssemblyReference.cache
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\Shadows.exe
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\Shadows.pdb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\Shadows.csproj.GenerateResource.Cache
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX.pri
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\LanguageQualifiers.txt
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\priconfig.xml
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\layout.resfiles
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\resources.resfiles
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\pri.resfiles
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\LanguageQualifiers.txt
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\shadowsTXT.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\SmileyWalk.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\Fonts\SegoeUI.xnb

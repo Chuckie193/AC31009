@@ -7,7 +7,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.xnb</Output>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.xnb</Output>
       <Time>2013-10-04T20:32:43.8127754+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal.xnb</Output>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal.xnb</Output>
       <Time>2013-10-04T20:39:32.0563641+01:00</Time>
     </Item>
     <Item>
@@ -25,8 +25,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal_2x.xnb</Output>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\gun_metal_2x.xnb</Output>
       <Time>2013-10-04T21:10:28.297342+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\SegoeUI.spritefont</Source>
+      <Name>Content\SegoeUI</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\SegoeUI.xnb</Output>
+      <Time>2013-10-14T11:24:12.3989212+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -35,10 +44,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNAContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNAContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

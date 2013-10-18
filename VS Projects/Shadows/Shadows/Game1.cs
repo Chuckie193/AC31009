@@ -1,5 +1,9 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Windows.UI.ViewManagement;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
+using Shadows.Managers;
 
 namespace Shadows
 {
@@ -8,16 +12,16 @@ namespace Shadows
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager _graphics;
-        SpriteBatch _spriteBatch;
-
         private Texture2D background;
         private Texture2D backgroundx2;
+        private Texture2D shadowsTXT;
+        private Vector2 FontPos;
+
+        GamePadState gamePadState;
 
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Content";
+            RenderManager.Initialise(this);
         }
 
         /// <summary>
@@ -40,9 +44,12 @@ namespace Shadows
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
-            background = Content.Load<Texture2D>("gun_metal");
-            backgroundx2 = Content.Load<Texture2D>("gun_metal_2x");
+            RenderManager.LoadContent();
+            background = RenderManager.content.Load<Texture2D>("gun_metal");
+            backgroundx2 = RenderManager.content.Load<Texture2D>("gun_metal_2x");
+            shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
+
+            FontPos = new Vector2(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height / 2);
         }
 
         /// <summary>
@@ -62,7 +69,7 @@ namespace Shadows
         protected override void Update(GameTime gameTime)
         {
             // TODO: Add your update logic here
-
+            gamePadState = GamePad.GetState(PlayerIndex.One);
             base.Update(gameTime);
         }
 
@@ -72,17 +79,61 @@ namespace Shadows
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
             Rectangle destRect = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
 
-            // _spriteBatch.Begin();
-            _spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
+            RenderManager.spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
+            RenderManager.spriteBatch.Draw(backgroundx2, Vector2.Zero, destRect, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
+            RenderManager.spriteBatch.End();
 
-            // _spriteBatch.Draw(background, new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height), Color.White);
-            _spriteBatch.Draw(backgroundx2, Vector2.Zero, destRect, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
+            RenderManager.spriteBatch.Begin();
 
-            _spriteBatch.End();
+            string output = "LANDSCAPE BABY!";
+
+            // Find the center of the string
+            Vector2 FontOrigin = RenderManager.spriteFont.MeasureString(output) / 2;
+
+            if (gamePadState.IsConnected)
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.HotPink, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            
+            if (gamePadState.Buttons.Y == ButtonState.Pressed)
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Yellow, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            else if (gamePadState.Buttons.B == ButtonState.Pressed)
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Red, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            else if (gamePadState.Buttons.A == ButtonState.Pressed)
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Green, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            else if (gamePadState.Buttons.X == ButtonState.Pressed)
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Blue, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+
+            RenderManager.spriteBatch.End();
+
+            /*
+            
+            if (ApplicationView.Value == ApplicationViewState.FullScreenLandscape)
+            {
+                // Draw Hello World
+                string output = "LANDSCAPE BABY!";
+
+                // Find the center of the string
+                Vector2 FontOrigin = RenderManager.spriteFont.MeasureString(output) / 2;
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.White, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+
+                RenderManager.spriteBatch.End();
+            }
+            
+            // GameState running if ApplicationViewState.FullScreenLandscape
+            // GameState paused if !ApplicationViewState.FullScreenLandscape
+            
+            */
 
             base.Draw(gameTime);
         }
