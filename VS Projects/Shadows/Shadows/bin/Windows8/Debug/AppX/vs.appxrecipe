@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.exe">
       <PackagePath>Shadows.exe</PackagePath>
-      <Modified>2013-11-10T20:58:26.881</Modified>
+      <Modified>2013-11-10T22:53:23.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.pdb">
       <PackagePath>Shadows.pdb</PackagePath>
-      <Modified>2013-11-10T20:58:26.861</Modified>
+      <Modified>2013-11-10T22:53:23.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>

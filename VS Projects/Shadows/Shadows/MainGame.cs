@@ -69,14 +69,46 @@ namespace Shadows
             Content.Unload();
         }
 
+        #endregion
+
+        protected void MenuText()
+        {
+            KeyboardState keyState = Keyboard.GetState();
+
+            Rectangle destRect = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
+            RenderManager.spriteBatch.Begin();
+
+            string output = "LANDSCAPE BABY!";
+
+            // Find the center of the string
+            Vector2 FontOrigin = RenderManager.spriteFont.MeasureString(output) / 2;
+
+            if (keyState.IsKeyDown(Keys.Up))
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Yellow, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            else if (keyState.IsKeyDown(Keys.Down))
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Red, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            else if (keyState.IsKeyDown(Keys.Right))
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Green, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+            else if (keyState.IsKeyDown(Keys.Left))
+            {
+                RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, FontPos, Color.Blue, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            }
+
+            RenderManager.spriteBatch.End();
+        }
+
         static protected void LoopSound(SoundEffect soundEffect)
         {
             SoundEffectInstance instance = soundEffect.CreateInstance();
             instance.IsLooped = true;
             instance.Play();
         }
-
-        #endregion
 
         #region Update and Draw
 
@@ -111,8 +143,9 @@ namespace Shadows
             RenderManager.spriteBatch.Draw(backgroundx2, Vector2.Zero, destRect, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
             RenderManager.spriteBatch.End();
 
+            MenuText();
+
             base.Draw(gameTime);
-            base.Run();
         }
 
         #endregion
