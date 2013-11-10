@@ -2,13 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>SmileyWalk.png</Source>
-      <Name>SmileyWalk</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>erokia-16.wav</Source>
+      <Name>erokia-16</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>XNAFormatter\Content\SmileyWalk.xnb</Output>
-      <Time>2013-10-08T22:05:08.1806041+01:00</Time>
+      <Output>XNAFormatter\Content\erokia-16.xnb</Output>
+      <Time>2013-10-04T20:31:50.5164535+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -48,8 +48,8 @@
         <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2013-10-04T01:00:59.669219+01:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-10-17T23:54:55.9847767+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

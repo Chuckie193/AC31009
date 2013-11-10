@@ -14,7 +14,7 @@ namespace Shadows.Managers
         public static SpriteBatch spriteBatch;
         public static SpriteFont spriteFont;
 
-        public static void Initialise(Game1 game)
+        public static void Initialise(MainGame game)
         {
             graphics = new GraphicsDeviceManager(game);
             game.Content.RootDirectory = "Content";

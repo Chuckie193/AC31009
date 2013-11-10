@@ -96,9 +96,6 @@
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\erokia-16.xnb">
-      <PackagePath>Content\erokia-16.xnb</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal.xnb">
       <PackagePath>Content\gun_metal.xnb</PackagePath>
     </AppxPackagedFile>
@@ -113,6 +110,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\Fonts\SegoeUI.xnb">
       <PackagePath>Content\Fonts\SegoeUI.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\erokia-16.xnb">
+      <PackagePath>Content\erokia-16.xnb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

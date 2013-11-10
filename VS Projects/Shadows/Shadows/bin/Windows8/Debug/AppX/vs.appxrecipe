@@ -5,7 +5,7 @@
     <WindowsUser>Johnathan Law</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>9C8D0E6E8676AE9D41979E87BDC9082F0EE8820BEF862F6A8424955DD5539112</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>79F1623B734DFC30F0B5C786BBBBB8BAA5BAF3B6A061B0061588C7FD3D25B5B2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d5a87b39-a364-4b77-9db4-1f39f166099a_1.0.0.0_neutral__zr5sgb3jkkxrr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d5a87b39-a364-4b77-9db4-1f39f166099a_zr5sgb3jkkxrr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d5a87b39-a364-4b77-9db4-1f39f166099a</RegisteredPackageID>
@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-10-14T10:24:43.478</Modified>
+      <Modified>2013-11-10T20:46:40.949</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.exe">
       <PackagePath>Shadows.exe</PackagePath>
-      <Modified>2013-10-17T19:02:13.510</Modified>
+      <Modified>2013-11-10T20:58:26.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.pdb">
       <PackagePath>Shadows.pdb</PackagePath>
-      <Modified>2013-10-17T19:02:13.490</Modified>
+      <Modified>2013-11-10T20:58:26.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -129,10 +129,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-01-06T13:37:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\erokia-16.xnb">
-      <PackagePath>Content\erokia-16.xnb</PackagePath>
-      <Modified>2013-10-04T19:32:46.931</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal.xnb">
       <PackagePath>Content\gun_metal.xnb</PackagePath>
       <Modified>2013-10-04T19:40:28.098</Modified>
@@ -153,9 +149,13 @@
       <PackagePath>Content\Fonts\SegoeUI.xnb</PackagePath>
       <Modified>2013-10-14T10:24:25.091</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\erokia-16.xnb">
+      <PackagePath>Content\erokia-16.xnb</PackagePath>
+      <Modified>2013-10-20T17:27:09.077</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-10-14T10:24:43.433</Modified>
+      <Modified>2013-10-20T17:28:09.842</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
