@@ -6,7 +6,11 @@ ShadowsXNA
 </name>
 </assembly>
 <members>
-<member name="M:ShadowsXNA.Game1.Initialize">
+<member name="M:ShadowsXNA.Program.Main(System.String[])">
+	<summary>
+ The main entry point for the application.
+ </summary>
+</member><member name="M:ShadowsXNA.Game1.Initialize">
 	<summary>
  Allows the game to perform any initialization it needs to before starting to run.
  This is where it can query for any required services and load any non-graphic
@@ -37,10 +41,6 @@ ShadowsXNA
 </member><member name="T:ShadowsXNA.Game1">
 	<summary>
  This is the main type for your game
- </summary>
-</member><member name="M:ShadowsXNA.Program.Main(System.String[])">
-	<summary>
- The main entry point for the application.
  </summary>
 </member>
 </members>

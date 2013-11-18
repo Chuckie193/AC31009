@@ -29,6 +29,33 @@
       <Time>2013-10-04T21:10:28.297342+01:00</Time>
     </Item>
     <Item>
+      <Source>Content\crappytiles.png</Source>
+      <Name>Content\crappytiles</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\crappytiles.xnb</Output>
+      <Time>2013-11-18T17:31:30.5100462+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\floorstuff.png</Source>
+      <Name>Content\floorstuff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\floorstuff.xnb</Output>
+      <Time>2013-11-18T17:31:30.5120396+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\topdownman32.png</Source>
+      <Name>Content\topdownman32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\topdownman32.xnb</Output>
+      <Time>2013-11-18T17:31:30.5140666+00:00</Time>
+    </Item>
+    <Item>
       <Source>Content\SegoeUI.spritefont</Source>
       <Name>Content\SegoeUI</Name>
       <Importer>FontDescriptionImporter</Importer>
@@ -75,8 +102,8 @@
         <Value>2011-09-01T16:22:30+01:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2013-10-04T01:00:59.669219+01:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-10-17T23:54:55.9847767+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

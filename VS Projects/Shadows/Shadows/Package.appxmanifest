@@ -1,27 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="d5a87b39-a364-4b77-9db4-1f39f166099a" Publisher="CN=Johnathan Law" Version="1.0.0.0" />
+
+  <Identity Name="d1e2dde6-f14c-4144-80ba-72e0935f3e07"
+            Publisher="CN=Johnathan Law"
+            Version="1.0.0.0" />
+
   <Properties>
     <DisplayName>Shadows</DisplayName>
     <PublisherDisplayName>Johnathan Law</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
+
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
+
   <Resources>
-    <Resource Language="x-generate" />
+    <Resource Language="x-generate"/>
   </Resources>
+
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Shadows.App">
-      <VisualElements DisplayName="Shadows" Logo="Assets\150x150.png" SmallLogo="Assets\30x30.png" Description="Shadows" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="logoOnly" WideLogo="Assets\310x150.png" />
-        <SplashScreen Image="Assets\620x300.png" BackgroundColor="#000000" />
-        <InitialRotationPreference>
-          <Rotation Preference="landscape" />
-        </InitialRotationPreference>
-      </VisualElements>
+    <Application Id="App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="Shadows.App">
+        <VisualElements
+            DisplayName="Shadows"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="Shadows"
+            ForegroundText="light"
+            BackgroundColor="#464646">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
     </Application>
   </Applications>
   <Capabilities>

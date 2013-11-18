@@ -19,3 +19,6 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXN
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\ShadowsXNA.pdb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\ShadowsXNA.xml
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\crappytiles.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\floorstuff.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\topdownman32.xnb
