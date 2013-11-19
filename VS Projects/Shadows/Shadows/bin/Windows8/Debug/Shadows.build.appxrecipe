@@ -47,12 +47,6 @@
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\Fonts\SegoeUI.xnb">
       <PackagePath>Content\Fonts\SegoeUI.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal.xnb">
-      <PackagePath>Content\gun_metal.xnb</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal_2x.xnb">
-      <PackagePath>Content\gun_metal_2x.xnb</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\shadowsTXT.xnb">
       <PackagePath>Content\shadowsTXT.xnb</PackagePath>
     </AppxPackagedFile>
@@ -64,6 +58,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\erokia-16.xnb">
       <PackagePath>Content\erokia-16.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\crate.xnb">
+      <PackagePath>Content\crate.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal.xnb">
+      <PackagePath>Content\gun_metal.xnb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\150x150.png">
       <PackagePath>Assets\150x150.png</PackagePath>

@@ -2,13 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>erokia-16.wav</Source>
-      <Name>erokia-16</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
+      <Source>crate2.png</Source>
+      <Name>crate2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>XNAFormatter\Content\erokia-16.xnb</Output>
-      <Time>2013-10-04T20:31:50.5164535+01:00</Time>
+      <Output>XNAFormatter\Content\crate2.xnb</Output>
+      <Time>2013-10-07T10:25:22.3591847+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -1,5 +1,7 @@
 ﻿using Shadows.Managers;
 
+using System.Collections.Generic;
+
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Graphics;
@@ -15,10 +17,12 @@ namespace Shadows
     {
         #region Fields
         private Texture2D background;
-        private Texture2D backgroundx2;
         private Texture2D shadowsTXT;
+        private Texture2D crate;
 
-        private AnimatedSprite player;
+        private List<Sprite> crates = new List<Sprite>();
+
+        private Player player;
         private Audio bgMenu;
         #endregion
 
@@ -35,7 +39,7 @@ namespace Shadows
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            RenderManager.createSprites();
             RenderManager.SetBoundary(this.Window.ClientBounds.Height, this.Window.ClientBounds.Width);
             base.Initialize();
         }
@@ -46,13 +50,14 @@ namespace Shadows
         /// </summary>
         protected override void LoadContent()
         {
-            RenderManager.createSprites();
             background = RenderManager.content.Load<Texture2D>("gun_metal");
-            backgroundx2 = RenderManager.content.Load<Texture2D>("gun_metal_2x");
             shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
+            crate = RenderManager.content.Load<Texture2D>("crate");
 
-            player = new AnimatedSprite(RenderManager.content.Load<Texture2D>("player"));
+            crates.Add(new Sprite(crate));
+            crates[0].position = new Vector2(0, 0);
 
+            player = new Player(RenderManager.content.Load<Texture2D>("player"));
             bgMenu = new Audio(RenderManager.content.Load<SoundEffect>("erokia-16"));
             // bgMenu.playSound();
         }
@@ -87,7 +92,7 @@ namespace Shadows
             Rectangle destRect = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
 
             RenderManager.spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
-            RenderManager.spriteBatch.Draw(backgroundx2, Vector2.Zero, destRect, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
+            RenderManager.spriteBatch.Draw(background, Vector2.Zero, destRect, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
             RenderManager.spriteBatch.End();
 
             // PLAYER
@@ -97,15 +102,6 @@ namespace Shadows
             RenderManager.spriteBatch.Begin();
             RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, source, Color.White, player.angle, origin, 1.0f, SpriteEffects.None, 0.0f);
             RenderManager.spriteBatch.End();
-
-            /*
-            string output = player.position.X + " / " + player.position.Y;
-            Vector2 FontOrigin = RenderManager.spriteFont.MeasureString(output) / 2;
-
-            RenderManager.spriteBatch.Begin();
-            RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, player.position, Color.Yellow, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
-            RenderManager.spriteBatch.End();
-            */
 
             base.Draw(gameTime);
         }

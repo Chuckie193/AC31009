@@ -34,8 +34,6 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\pri.resfiles.intermediate
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\ProjectArchitectures.txt
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\tiles.xnb
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal.xnb
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal_2x.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\shadowsTXT.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\enemy.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\player.xnb
@@ -44,6 +42,8 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\qualifiers.txt
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\crate.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\layout.resfiles
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\layout.resfiles.intermediate
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\Resources.resfiles

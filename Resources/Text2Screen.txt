@@ -1,0 +1,8 @@
+ /*
+            string output = player.position.X + " / " + player.position.Y;
+            Vector2 FontOrigin = RenderManager.spriteFont.MeasureString(output) / 2;
+
+            RenderManager.spriteBatch.Begin();
+            RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, player.position, Color.Yellow, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            RenderManager.spriteBatch.End();
+            */

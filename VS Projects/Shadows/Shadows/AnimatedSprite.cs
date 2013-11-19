@@ -98,10 +98,10 @@ namespace Shadows
                     break;
             }
 
-            if (position.X > (RenderManager.width - windowBuffer) || position.X < 0 + (frameWidth / 2) + windowBuffer)
+            if (position.X > (RenderManager.width - windowBuffer - (frameWidth / 2)) || position.X < 0 + windowBuffer + (frameWidth / 2))
                 position.X = lastPos.X;
 
-            if (position.Y > (RenderManager.height - windowBuffer) || position.Y < 0 + (frameHeight / 2) + windowBuffer)
+            if (position.Y > (RenderManager.height - windowBuffer - (frameWidth / 2)) || position.Y < 0 + windowBuffer + (frameHeight / 2))
                 position.Y = lastPos.Y;
         }
     }
