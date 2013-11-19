@@ -8,7 +8,6 @@ namespace Shadows
     class AnimatedSprite : Sprite
     {
         private const int totalFrames = 5;
-        private const int windowBuffer = 2;
 
         public float frameIndex;
         public int frameHeight;
@@ -17,14 +16,26 @@ namespace Shadows
         private float time;
         private float frameTime = 0.1f;
 
+        public Vector2 origin;
         public Vector2 prevPosition;
         public float angle;
 
-        public AnimatedSprite(Texture2D texture) : base(texture)
+        public AnimatedSprite(Texture2D texture, Vector2 startingPosition) : base(texture, startingPosition)
         {
             frameHeight = texture.Height;
             frameWidth = (texture.Width / 6);
             frameIndex = 0;
+
+            origin = new Vector2((frameWidth / 2.0f), (frameHeight / 2.0f));
+            prevPosition = new Vector2((RenderManager.width / 2), (RenderManager.height / 2));
+
+            if (startingPosition.X > (RenderManager.width - windowBuffer - (frameWidth / 2)) || startingPosition.X < 0 + windowBuffer + (frameWidth / 2))
+                startingPosition.X = (windowBuffer + (frameWidth / 2));
+
+            if (startingPosition.Y > (RenderManager.height - windowBuffer - (frameWidth / 2)) || startingPosition.Y < 0 + windowBuffer + (frameHeight / 2))
+                startingPosition.Y = (windowBuffer + (frameHeight / 2));
+
+            position = startingPosition;
         }
 
         /// <summary>
@@ -66,8 +77,6 @@ namespace Shadows
         /// <param name="direction">Provides the direction for sprite to move.</param>
         private void updatePosition(int direction)
         {
-            Vector2 lastPos = position;
-
             switch (direction)
             {
                 case (1):
@@ -99,10 +108,10 @@ namespace Shadows
             }
 
             if (position.X > (RenderManager.width - windowBuffer - (frameWidth / 2)) || position.X < 0 + windowBuffer + (frameWidth / 2))
-                position.X = lastPos.X;
+                position.X = prevPosition.X;
 
             if (position.Y > (RenderManager.height - windowBuffer - (frameWidth / 2)) || position.Y < 0 + windowBuffer + (frameHeight / 2))
-                position.Y = lastPos.Y;
+                position.Y = prevPosition.Y;
         }
     }
 }

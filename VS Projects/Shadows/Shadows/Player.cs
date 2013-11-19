@@ -6,7 +6,7 @@ namespace Shadows
 {
     class Player : AnimatedSprite
     {
-        public Player(Texture2D texture) : base(texture)
+        public Player(Texture2D texture, Vector2 startingPosition) : base(texture, startingPosition)
         {
 
         }

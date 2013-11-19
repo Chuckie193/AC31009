@@ -54,10 +54,11 @@ namespace Shadows
             shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
             crate = RenderManager.content.Load<Texture2D>("crate");
 
-            crates.Add(new Sprite(crate));
-            crates[0].position = new Vector2(0, 0);
+            crates.Add(new Sprite(crate, new Vector2(50, 50), 0.2f));
+            crates.Add(new Sprite(crate, new Vector2(500, 100), 0.5f));
+            crates.Add(new Sprite(crate, new Vector2(205, 320), 0.8f));
 
-            player = new Player(RenderManager.content.Load<Texture2D>("player"));
+            player = new Player(RenderManager.content.Load<Texture2D>("player"), new Vector2(10, 10));
             bgMenu = new Audio(RenderManager.content.Load<SoundEffect>("erokia-16"));
             // bgMenu.playSound();
         }
@@ -89,19 +90,23 @@ namespace Shadows
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            Rectangle destRect = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
+            Rectangle backgroundLayer = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
+            Rectangle playerLayer = new Rectangle((int)player.frameIndex * player.frameWidth, 0, player.frameWidth, player.frameHeight);
 
             RenderManager.spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
-            RenderManager.spriteBatch.Draw(background, Vector2.Zero, destRect, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
+            RenderManager.spriteBatch.Draw(background, Vector2.Zero, backgroundLayer, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
             RenderManager.spriteBatch.End();
-
-            // PLAYER
-            Rectangle source = new Rectangle((int)player.frameIndex * player.frameWidth, 0, player.frameWidth, player.frameHeight);
-            Vector2 origin = new Vector2((player.frameWidth / 2.0f), (player.frameHeight / 2.0f));
             
             RenderManager.spriteBatch.Begin();
-            RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, source, Color.White, player.angle, origin, 1.0f, SpriteEffects.None, 0.0f);
+            RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, playerLayer, Color.White, player.angle, player.origin, 1.0f, SpriteEffects.None, 0.0f);
             RenderManager.spriteBatch.End();
+
+            foreach (Sprite s in crates)
+            {
+                RenderManager.spriteBatch.Begin();
+                RenderManager.spriteBatch.Draw(s.spriteTexture, s.position, null, Color.White, 0.0f, Vector2.Zero, s.scale, SpriteEffects.None, 0.0f);
+                RenderManager.spriteBatch.End();
+            }
 
             base.Draw(gameTime);
         }

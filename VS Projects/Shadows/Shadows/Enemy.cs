@@ -6,7 +6,7 @@ namespace Shadows
 {
     class Enemy : AnimatedSprite
     {
-        public Enemy(Texture2D texture) : base(texture)
+        public Enemy(Texture2D texture, Vector2 startingPosition) : base(texture, startingPosition)
         {
 
         }
