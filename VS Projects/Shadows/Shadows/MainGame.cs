@@ -17,10 +17,8 @@ namespace Shadows
         private Texture2D background;
         private Texture2D backgroundx2;
         private Texture2D shadowsTXT;
-        private Vector2 position;
 
-        private Sprite player;
-        private Sprite enemy;
+        private AnimatedSprite player;
         private Audio bgMenu;
         #endregion
 
@@ -53,9 +51,7 @@ namespace Shadows
             backgroundx2 = RenderManager.content.Load<Texture2D>("gun_metal_2x");
             shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
 
-            position = new Vector2((this.Window.ClientBounds.Width / 2), (this.Window.ClientBounds.Height / 2));
-
-            player = new Sprite(RenderManager.content.Load<Texture2D>("player"));
+            player = new AnimatedSprite(RenderManager.content.Load<Texture2D>("player"));
 
             bgMenu = new Audio(RenderManager.content.Load<SoundEffect>("erokia-16"));
             // bgMenu.playSound();
@@ -103,11 +99,11 @@ namespace Shadows
             RenderManager.spriteBatch.End();
 
             /*
-            string output = position.X + " / " + position.Y;
+            string output = player.position.X + " / " + player.position.Y;
             Vector2 FontOrigin = RenderManager.spriteFont.MeasureString(output) / 2;
 
             RenderManager.spriteBatch.Begin();
-            RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, position, Color.Yellow, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
+            RenderManager.spriteBatch.DrawString(RenderManager.spriteFont, output, player.position, Color.Yellow, 0, FontOrigin, 1.0f, SpriteEffects.None, 0.5f);
             RenderManager.spriteBatch.End();
             */
 

@@ -132,7 +132,7 @@
     <Compile Include="Managers\RenderManager.cs" />
     <Compile Include="Managers\InputManager.cs" />
     <Compile Include="Menu.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="AnimatedSprite.cs" />
     <Compile Include="Sprite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="MainGame.cs" />
