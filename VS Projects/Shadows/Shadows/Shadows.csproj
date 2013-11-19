@@ -128,7 +128,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Audio.cs" />
+    <Compile Include="Collision.cs" />
     <Compile Include="Enemy.cs" />
+    <Compile Include="Level.cs" />
     <Compile Include="Managers\RenderManager.cs" />
     <Compile Include="Managers\InputManager.cs" />
     <Compile Include="Menu.cs" />

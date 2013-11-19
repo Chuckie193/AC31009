@@ -1,5 +1,6 @@
 ﻿using Shadows.Managers;
 
+using System;
 using System.Collections.Generic;
 
 using Microsoft.Xna.Framework;
@@ -60,7 +61,7 @@ namespace Shadows
 
             player = new Player(RenderManager.content.Load<Texture2D>("player"), new Vector2(10, 10));
             bgMenu = new Audio(RenderManager.content.Load<SoundEffect>("erokia-16"));
-            // bgMenu.playSound();
+            bgMenu.playSound();
         }
 
         /// <summary>
@@ -106,6 +107,7 @@ namespace Shadows
                 RenderManager.spriteBatch.Begin();
                 RenderManager.spriteBatch.Draw(s.spriteTexture, s.position, null, Color.White, 0.0f, Vector2.Zero, s.scale, SpriteEffects.None, 0.0f);
                 RenderManager.spriteBatch.End();
+                Collision.detectCollision(player, s);
             }
 
             base.Draw(gameTime);
