@@ -1,4 +1,7 @@
 ﻿using System;
+
+using System.Diagnostics;
+
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
@@ -17,13 +20,18 @@ namespace Shadows.Managers
             GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
             int currentDirection = 0;
 
-            if (gamePadState.IsConnected && previousPadState.IsConnected == false)
+            if (gamePadState.IsConnected)
             {
-                
+                currentDirection = ControllerInput(gamePadState);
             }
-            else if (gamePadState.IsConnected == false && previousPadState.IsConnected)
+            else if (gamePadState.IsConnected && !previousPadState.IsConnected)
             {
-                // PAUSE GAME, controller disconnected.
+                Debug.WriteLine("Controller Connected");
+            }
+            else if (!gamePadState.IsConnected && previousPadState.IsConnected)
+            {
+                Debug.WriteLine("Controller Disonnected");
+                // Pause the game!
             }
             else
             {
@@ -50,6 +58,27 @@ namespace Shadows.Managers
                 currentDirection = 3;
 
             if (keyState.IsKeyDown(Keys.Right))
+                currentDirection = 4;
+
+            return currentDirection;
+        }
+
+        private static int ControllerInput(GamePadState gamePadState)
+        {
+            int currentDirection = 0;
+
+            KeyboardState keyState = Keyboard.GetState();
+
+            if (gamePadState.ThumbSticks.Left.Y <= 1 && gamePadState.ThumbSticks.Left.Y > 0)
+                currentDirection = 1;
+
+            if (gamePadState.ThumbSticks.Left.Y < 0 && gamePadState.ThumbSticks.Left.Y >= -1)
+                currentDirection = 2;
+
+            if (gamePadState.ThumbSticks.Left.X < 0 && gamePadState.ThumbSticks.Left.X >= -1)
+                currentDirection = 3;
+
+            if (gamePadState.ThumbSticks.Left.X <= 1 && gamePadState.ThumbSticks.Left.X > 0)
                 currentDirection = 4;
 
             return currentDirection;

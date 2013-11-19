@@ -1,6 +1,7 @@
 ﻿using Shadows.Managers;
 
 using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 
 using Microsoft.Xna.Framework;
@@ -20,6 +21,7 @@ namespace Shadows
         private Texture2D background;
         private Texture2D shadowsTXT;
         private Texture2D crate;
+        private Texture2D px;
 
         private List<Sprite> crates = new List<Sprite>();
 
@@ -54,10 +56,9 @@ namespace Shadows
             background = RenderManager.content.Load<Texture2D>("gun_metal");
             shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
             crate = RenderManager.content.Load<Texture2D>("crate");
+            px = RenderManager.content.Load<Texture2D>("1px");
 
-            crates.Add(new Sprite(crate, new Vector2(50, 50), 0.2f));
-            crates.Add(new Sprite(crate, new Vector2(500, 100), 0.5f));
-            crates.Add(new Sprite(crate, new Vector2(205, 320), 0.8f));
+            crates.Add(new Sprite(crate, new Vector2(100, 100)));
 
             player = new Player(RenderManager.content.Load<Texture2D>("player"), new Vector2(10, 10));
             bgMenu = new Audio(RenderManager.content.Load<SoundEffect>("erokia-16"));
@@ -81,7 +82,7 @@ namespace Shadows
         protected override void Update(GameTime gameTime)
         {
             player.Update(gameTime, InputManager.GetInput());
-
+            Collision.detectCollision(player, crates[0]);
             base.Update(gameTime);
         }
 
@@ -91,26 +92,34 @@ namespace Shadows
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            Rectangle backgroundLayer = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
-            Rectangle playerLayer = new Rectangle((int)player.frameIndex * player.frameWidth, 0, player.frameWidth, player.frameHeight);
-
-            RenderManager.spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
-            RenderManager.spriteBatch.Draw(background, Vector2.Zero, backgroundLayer, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
-            RenderManager.spriteBatch.End();
-            
-            RenderManager.spriteBatch.Begin();
-            RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, playerLayer, Color.White, player.angle, player.origin, 1.0f, SpriteEffects.None, 0.0f);
-            RenderManager.spriteBatch.End();
-
-            foreach (Sprite s in crates)
+            try
             {
-                RenderManager.spriteBatch.Begin();
-                RenderManager.spriteBatch.Draw(s.spriteTexture, s.position, null, Color.White, 0.0f, Vector2.Zero, s.scale, SpriteEffects.None, 0.0f);
-                RenderManager.spriteBatch.End();
-                Collision.detectCollision(player, s);
-            }
+                Rectangle backgroundLayer = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
+                Rectangle playerLayer = new Rectangle((int)player.frameIndex * player.frameWidth, 0, player.frameWidth, player.frameHeight);
 
-            base.Draw(gameTime);
+                RenderManager.spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
+                RenderManager.spriteBatch.Draw(background, Vector2.Zero, backgroundLayer, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
+                RenderManager.spriteBatch.End();
+
+                RenderManager.spriteBatch.Begin();
+                RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, playerLayer, Color.White, player.angle, player.origin, 1.0f, SpriteEffects.None, 0.0f);
+                DrawRect.DrawRectangle(player.rect, px, Color.Red, RenderManager.spriteBatch, false, 2);
+                RenderManager.spriteBatch.End();
+
+                foreach (Sprite s in crates)
+                {
+                    RenderManager.spriteBatch.Begin();
+                    RenderManager.spriteBatch.Draw(s.spriteTexture, s.position, null, Color.White, 0.0f, Vector2.Zero, s.scale, SpriteEffects.None, 0.0f);
+                    DrawRect.DrawRectangle(s.rect, px, Color.Red, RenderManager.spriteBatch, false, 2);
+                    RenderManager.spriteBatch.End();
+                }
+
+                base.Draw(gameTime);
+            }
+            catch (SharpDX.SharpDXException e)
+            {
+                Debug.WriteLine(e.Descriptor);
+            }
         }
     }
 }

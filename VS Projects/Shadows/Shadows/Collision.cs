@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Shadows.Managers;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Shadows
 {
@@ -14,9 +13,17 @@ namespace Shadows
         /// </summary>
         /// <param name="sOne"></param>
         /// <param name="sTwo"></param>
-        public static void detectCollision(AnimatedSprite sOne, Sprite sTwo)
+        public static bool detectCollision(AnimatedSprite sOne, Sprite sTwo)
         {
-
+            if (sOne.rect.Intersects(sTwo.rect))
+            {
+                sOne.position = sOne.prevPosition;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

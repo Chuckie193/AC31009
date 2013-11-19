@@ -2,13 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>crate2.png</Source>
-      <Name>crate2</Name>
+      <Source>1px.png</Source>
+      <Name>1px</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>XNAFormatter\Content\crate2.xnb</Output>
-      <Time>2013-10-07T10:25:22.3591847+01:00</Time>
+      <Output>XNAFormatter\Content\1px.xnb</Output>
+      <Time>2013-11-19T22:46:07.1290059+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

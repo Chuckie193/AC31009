@@ -18,7 +18,9 @@ namespace Shadows
 
         public Vector2 origin;
         public Vector2 prevPosition;
+
         public float angle;
+        public int direction;
 
         public AnimatedSprite(Texture2D texture, Vector2 startingPosition) : base(texture, startingPosition)
         {
@@ -29,13 +31,15 @@ namespace Shadows
             origin = new Vector2((frameWidth / 2.0f), (frameHeight / 2.0f));
             prevPosition = new Vector2((RenderManager.width / 2), (RenderManager.height / 2));
 
-            if (startingPosition.X > (RenderManager.width - windowBuffer - (frameWidth / 2)) || startingPosition.X < 0 + windowBuffer + (frameWidth / 2))
-                startingPosition.X = (windowBuffer + (frameWidth / 2));
+            if (startingPosition.X > (RenderManager.width - buffer - (frameWidth / 2)) || startingPosition.X < 0 + buffer + (frameWidth / 2))
+                startingPosition.X = (buffer + (frameWidth / 2));
 
-            if (startingPosition.Y > (RenderManager.height - windowBuffer - (frameWidth / 2)) || startingPosition.Y < 0 + windowBuffer + (frameHeight / 2))
-                startingPosition.Y = (windowBuffer + (frameHeight / 2));
+            if (startingPosition.Y > (RenderManager.height - buffer - (frameWidth / 2)) || startingPosition.Y < 0 + buffer + (frameHeight / 2))
+                startingPosition.Y = (buffer + (frameHeight / 2));
 
             position = startingPosition;
+
+            rect = new Rectangle((int)(startingPosition.X - (frameWidth / 2)), (int)(startingPosition.Y - (frameHeight / 2)), (int)(frameWidth), (int)(frameHeight));
         }
 
         /// <summary>
@@ -107,11 +111,16 @@ namespace Shadows
                     break;
             }
 
-            if (position.X > (RenderManager.width - windowBuffer - (frameWidth / 2)) || position.X < 0 + windowBuffer + (frameWidth / 2))
+            this.direction = direction;
+
+            if (position.X > (RenderManager.width - buffer - (frameWidth / 2)) || position.X < 0 + buffer + (frameWidth / 2))
                 position.X = prevPosition.X;
 
-            if (position.Y > (RenderManager.height - windowBuffer - (frameWidth / 2)) || position.Y < 0 + windowBuffer + (frameHeight / 2))
+            if (position.Y > (RenderManager.height - buffer - (frameWidth / 2)) || position.Y < 0 + buffer + (frameHeight / 2))
                 position.Y = prevPosition.Y;
+
+            rect.X = (int)position.X-(frameWidth/2);
+            rect.Y = (int)position.Y-(frameHeight/2);
         }
     }
 }
