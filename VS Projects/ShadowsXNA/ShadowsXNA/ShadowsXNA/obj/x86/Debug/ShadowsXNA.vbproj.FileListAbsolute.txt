@@ -22,3 +22,6 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXN
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\crappytiles.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\floorstuff.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\topdownman32.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\enemy.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\player.xnb
+C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.wma

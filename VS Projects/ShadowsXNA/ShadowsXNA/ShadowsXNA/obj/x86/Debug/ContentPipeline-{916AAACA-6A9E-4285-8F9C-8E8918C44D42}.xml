@@ -2,15 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Content\erokia-16.wav</Source>
-      <Name>Content\erokia-16</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.xnb</Output>
-      <Time>2013-10-04T20:32:43.8127754+01:00</Time>
-    </Item>
-    <Item>
       <Source>Content\gun_metal.png</Source>
       <Name>Content\gun_metal</Name>
       <Importer>TextureImporter</Importer>
@@ -63,6 +54,40 @@
       <Options>None</Options>
       <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\SegoeUI.xnb</Output>
       <Time>2013-10-14T11:24:12.3989212+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\enemy.png</Source>
+      <Name>Content\enemy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 0, 128, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\enemy.xnb</Output>
+      <Time>2013-11-18T18:37:54.6245062+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\player.png</Source>
+      <Name>Content\player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">255, 0, 128, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\player.xnb</Output>
+      <Time>2013-11-18T18:37:54.6265085+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Content\erokia-16.wav</Source>
+      <Name>Content\erokia-16</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.xnb</Output>
+      <Extra>C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\ShadowsXNA\ShadowsXNA\ShadowsXNA\bin\x86\Debug\Content\Content\erokia-16.wma</Extra>
+      <Time>2013-10-04T20:32:43.8127754+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

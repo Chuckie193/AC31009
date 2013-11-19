@@ -127,25 +127,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audio.cs" />
     <Compile Include="Enemy.cs" />
+    <Compile Include="Managers\RenderManager.cs" />
+    <Compile Include="Managers\InputManager.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Sprite.cs" />
-    <Compile Include="Controller.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Game1.cs" />
+    <Compile Include="MainGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Content\tiles.xnb" />
-    <None Include="Content\erokia-16.xnb" />
-    <None Include="Content\Fonts\SegoeUI.xnb" />
-    <None Include="Content\gun_metal.xnb" />
-    <None Include="Content\gun_metal_2x.xnb" />
-    <None Include="Content\shadowsTXT.xnb" />
-    <None Include="Content\characters.xnb" />
+    <Content Include="Content\tiles.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Fonts\SegoeUI.xnb" />
+    <Content Include="Content\gun_metal.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\gun_metal_2x.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\shadowsTXT.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\enemy.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\player.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\erokia-16.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Shadows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
