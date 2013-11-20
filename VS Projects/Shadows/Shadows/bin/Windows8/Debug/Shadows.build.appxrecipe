@@ -65,9 +65,6 @@
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\gun_metal.xnb">
       <PackagePath>Content\gun_metal.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\1px.xnb">
-      <PackagePath>Content\1px.xnb</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\150x150.png">
       <PackagePath>Assets\150x150.png</PackagePath>
     </AppxPackagedFile>

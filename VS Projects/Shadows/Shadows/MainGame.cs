@@ -56,7 +56,6 @@ namespace Shadows
             background = RenderManager.content.Load<Texture2D>("gun_metal");
             shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
             crate = RenderManager.content.Load<Texture2D>("crate");
-            px = RenderManager.content.Load<Texture2D>("1px");
 
             crates.Add(new Sprite(crate, new Vector2(100, 100)));
 
@@ -103,14 +102,12 @@ namespace Shadows
 
                 RenderManager.spriteBatch.Begin();
                 RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, playerLayer, Color.White, player.angle, player.origin, 1.0f, SpriteEffects.None, 0.0f);
-                DrawRect.DrawRectangle(player.rect, px, Color.Red, RenderManager.spriteBatch, false, 2);
                 RenderManager.spriteBatch.End();
 
                 foreach (Sprite s in crates)
                 {
                     RenderManager.spriteBatch.Begin();
                     RenderManager.spriteBatch.Draw(s.spriteTexture, s.position, null, Color.White, 0.0f, Vector2.Zero, s.scale, SpriteEffects.None, 0.0f);
-                    DrawRect.DrawRectangle(s.rect, px, Color.Red, RenderManager.spriteBatch, false, 2);
                     RenderManager.spriteBatch.End();
                 }
 

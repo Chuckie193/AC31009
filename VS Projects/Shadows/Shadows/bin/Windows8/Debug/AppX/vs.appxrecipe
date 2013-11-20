@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-19T22:48:08.287</Modified>
+      <Modified>2013-11-20T00:50:22.051</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Shadows.exe">
       <PackagePath>Shadows.exe</PackagePath>
-      <Modified>2013-11-19T23:21:29.717</Modified>
+      <Modified>2013-11-20T00:50:21.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -89,10 +89,6 @@
       <PackagePath>Content\gun_metal.xnb</PackagePath>
       <Modified>2013-11-19T15:38:27.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Content\1px.xnb">
-      <PackagePath>Content\1px.xnb</PackagePath>
-      <Modified>2013-11-19T22:46:29.745</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\Assets\150x150.png">
       <PackagePath>Assets\150x150.png</PackagePath>
       <Modified>2013-11-18T17:39:03.096</Modified>
@@ -135,7 +131,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-19T23:21:29.811</Modified>
+      <Modified>2013-11-20T00:50:21.946</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -129,7 +129,6 @@
   <ItemGroup>
     <Compile Include="Audio.cs" />
     <Compile Include="Collision.cs" />
-    <Compile Include="DrawRect.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="Managers\RenderManager.cs" />
@@ -166,9 +165,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\gun_metal.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\1px.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Shadows_TemporaryKey.pfx" />
