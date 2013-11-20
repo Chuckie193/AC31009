@@ -44,11 +44,3 @@ C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\gun_metal.xnb
 C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\bin\Windows8\Debug\Content\crate.xnb
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\layout.resfiles
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\layout.resfiles.intermediate
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\Resources.resfiles
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\Resources.resfiles.intermediate
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\pri.resfiles
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\pri.resfiles.intermediate
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\priconfig.xml
-C:\Users\Johnathan Law\Documents\GitHub\AC31009\VS Projects\Shadows\Shadows\obj\Debug\SharpDX\priconfig.xml.intermediate
