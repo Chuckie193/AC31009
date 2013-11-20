@@ -21,11 +21,14 @@ namespace Shadows
         private Texture2D background;
         private Texture2D shadowsTXT;
         private Texture2D crate;
-        private Texture2D px;
+
+        private Texture2D coneView;
 
         private List<Sprite> crates = new List<Sprite>();
 
         private Player player;
+        private Enemy enemy;
+
         private Audio bgMenu;
         #endregion
 
@@ -57,9 +60,11 @@ namespace Shadows
             shadowsTXT = RenderManager.content.Load<Texture2D>("shadowsTXT");
             crate = RenderManager.content.Load<Texture2D>("crate");
 
-            crates.Add(new Sprite(crate, new Vector2(100, 100)));
+            // crates.Add(new Sprite(crate, new Vector2(100, 100)));
 
             player = new Player(RenderManager.content.Load<Texture2D>("player"), new Vector2(10, 10));
+            enemy = new Enemy(RenderManager.content.Load<Texture2D>("enemy"), new Vector2(100, 100));
+
             bgMenu = new Audio(RenderManager.content.Load<SoundEffect>("erokia-16"));
             bgMenu.playSound();
         }
@@ -80,8 +85,11 @@ namespace Shadows
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            player.Update(gameTime, InputManager.GetInput());
-            Collision.detectCollision(player, crates[0]);
+            player.Update(gameTime, InputManager.GetInput(1));
+            enemy.Update(gameTime, InputManager.GetInput(2));
+
+            // Collision.detectCollision(player, crates[0]);
+            Collision.detectSprite(enemy, player);
             base.Update(gameTime);
         }
 
@@ -95,6 +103,7 @@ namespace Shadows
             {
                 Rectangle backgroundLayer = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
                 Rectangle playerLayer = new Rectangle((int)player.frameIndex * player.frameWidth, 0, player.frameWidth, player.frameHeight);
+                Rectangle enemyLayer = new Rectangle((int)enemy.frameIndex * enemy.frameWidth, 0, enemy.frameWidth, enemy.frameHeight);
 
                 RenderManager.spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.Opaque, SamplerState.LinearWrap, DepthStencilState.Default, RasterizerState.CullNone);
                 RenderManager.spriteBatch.Draw(background, Vector2.Zero, backgroundLayer, Color.White, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
@@ -104,12 +113,18 @@ namespace Shadows
                 RenderManager.spriteBatch.Draw(player.spriteTexture, player.position, playerLayer, Color.White, player.angle, player.origin, 1.0f, SpriteEffects.None, 0.0f);
                 RenderManager.spriteBatch.End();
 
+                RenderManager.spriteBatch.Begin();
+                RenderManager.spriteBatch.Draw(enemy.spriteTexture, enemy.position, enemyLayer, Color.White, enemy.angle, enemy.origin, 1.0f, SpriteEffects.None, 0.0f);
+                RenderManager.spriteBatch.End();
+
+                /*
                 foreach (Sprite s in crates)
                 {
                     RenderManager.spriteBatch.Begin();
                     RenderManager.spriteBatch.Draw(s.spriteTexture, s.position, null, Color.White, 0.0f, Vector2.Zero, s.scale, SpriteEffects.None, 0.0f);
                     RenderManager.spriteBatch.End();
                 }
+                 */
 
                 base.Draw(gameTime);
             }

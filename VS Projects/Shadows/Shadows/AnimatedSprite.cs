@@ -59,18 +59,18 @@ namespace Shadows
 
                 while (time > frameTime)
                 {
-                    frameIndex++;
+                    this.frameIndex++;
                     time = 0f;
                 }
 
-                if (frameIndex > totalFrames)
+                if (this.frameIndex > totalFrames)
                 {
-                    frameIndex = 0;
+                    this.frameIndex = 0;
                 }
             }
             else
             {
-                frameIndex = 0;
+                this.frameIndex = 0;
             }
         }
 

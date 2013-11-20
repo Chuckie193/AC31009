@@ -42,6 +42,27 @@ namespace Shadows.Managers
             return (int)currentDirection;
         }
 
+        public static int GetInput(int debug)
+        {
+            GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
+            int currentDirection = 0;
+
+            if (debug == 1)
+            {
+                currentDirection = KeyboardInput();
+            }
+            else
+            {
+                if (gamePadState.IsConnected)
+                {
+                    currentDirection = ControllerInput(gamePadState);
+                }
+            }
+
+            previousPadState = gamePadState;
+            return (int)currentDirection;
+        }
+
         private static int KeyboardInput()
         {
             int currentDirection = 0;
